@@ -1,0 +1,9 @@
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe.config
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\bin\Debug\ConnectFour.pdb
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csprojResolveAssemblyReference.cache
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Properties.Resources.resources
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.GenerateResource.Cache
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.exe
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.pdb
+c:\users\steven\documents\visual studio 2015\Projects\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Form1.resources
