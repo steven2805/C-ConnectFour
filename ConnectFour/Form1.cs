@@ -10,8 +10,15 @@ using System.Windows.Forms;
 
 namespace ConnectFour
 {
+
+
     public partial class Form1 : Form
     {
+        bool turn = true; // When true = X; when false = O;
+        int turn_count = 0;
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +27,22 @@ namespace ConnectFour
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
             MessageBox.Show("By Steven", "Simple game");
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("this is the button press");
+
+        }
+
+        private void button_click(object sender, EventArgs e)
+        {
+            MessageBox.Show("this is the button press testimg");
         }
     }
 }

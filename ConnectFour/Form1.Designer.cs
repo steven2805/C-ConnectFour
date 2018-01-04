@@ -55,6 +55,87 @@
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
+            // button1
+            // 
+            button1.Location = new System.Drawing.Point(12, 50);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(76, 75);
+            button1.TabIndex = 1;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += new System.EventHandler(this.button_click);
+            // 
+            // button2
+            // 
+            button2.Location = new System.Drawing.Point(103, 50);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(76, 75);
+            button2.TabIndex = 2;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += new System.EventHandler(this.button_click);
+            // 
+            // button3
+            // 
+            button3.Location = new System.Drawing.Point(196, 50);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(76, 75);
+            button3.TabIndex = 3;
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += new System.EventHandler(this.button_click);
+            // 
+            // button4
+            // 
+            button4.Location = new System.Drawing.Point(12, 131);
+            button4.Name = "button4";
+            button4.Size = new System.Drawing.Size(76, 75);
+            button4.TabIndex = 4;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += new System.EventHandler(this.button_click);
+            // 
+            // button5
+            // 
+            button5.Location = new System.Drawing.Point(103, 131);
+            button5.Name = "button5";
+            button5.Size = new System.Drawing.Size(76, 75);
+            button5.TabIndex = 5;
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += new System.EventHandler(this.button_click);
+            // 
+            // button6
+            // 
+            button6.Location = new System.Drawing.Point(196, 131);
+            button6.Name = "button6";
+            button6.Size = new System.Drawing.Size(76, 75);
+            button6.TabIndex = 6;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += new System.EventHandler(this.button_click);
+            // 
+            // button7
+            // 
+            button7.Location = new System.Drawing.Point(12, 212);
+            button7.Name = "button7";
+            button7.Size = new System.Drawing.Size(76, 75);
+            button7.TabIndex = 7;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += new System.EventHandler(this.button_click);
+            // 
+            // button8
+            // 
+            button8.Location = new System.Drawing.Point(103, 212);
+            button8.Name = "button8";
+            button8.Size = new System.Drawing.Size(76, 75);
+            button8.TabIndex = 8;
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += new System.EventHandler(this.button_click);
+            // 
+            // button9
+            // 
+            button9.Location = new System.Drawing.Point(196, 212);
+            button9.Name = "button9";
+            button9.Size = new System.Drawing.Size(76, 75);
+            button9.TabIndex = 9;
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += new System.EventHandler(this.button_click);
+            // 
             // menuStrip2
             // 
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -87,6 +168,7 @@
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(181, 26);
             this.toolStripMenuItem4.Text = "Exit";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -102,78 +184,6 @@
             this.toolStripMenuItem5.Size = new System.Drawing.Size(181, 26);
             this.toolStripMenuItem5.Text = "About";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
-            // 
-            // button1
-            // 
-            button1.Location = new System.Drawing.Point(12, 50);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(76, 75);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new System.Drawing.Point(103, 50);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(76, 75);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new System.Drawing.Point(196, 50);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(76, 75);
-            button3.TabIndex = 3;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new System.Drawing.Point(12, 131);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(76, 75);
-            button4.TabIndex = 4;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new System.Drawing.Point(103, 131);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(76, 75);
-            button5.TabIndex = 5;
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Location = new System.Drawing.Point(196, 131);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(76, 75);
-            button6.TabIndex = 6;
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Location = new System.Drawing.Point(12, 212);
-            button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(76, 75);
-            button7.TabIndex = 7;
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Location = new System.Drawing.Point(103, 212);
-            button8.Name = "button8";
-            button8.Size = new System.Drawing.Size(76, 75);
-            button8.TabIndex = 8;
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.Location = new System.Drawing.Point(196, 212);
-            button9.Name = "button9";
-            button9.Size = new System.Drawing.Size(76, 75);
-            button9.TabIndex = 9;
-            button9.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
