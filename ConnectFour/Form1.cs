@@ -17,9 +17,9 @@ namespace ConnectFour
             InitializeComponent();
         }
 
-        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("By Steven", "Simple game");
         }
     }
 }
