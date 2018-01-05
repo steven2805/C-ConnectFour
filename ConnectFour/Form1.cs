@@ -36,16 +36,13 @@ namespace ConnectFour
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("this is the button press");
-            System.Console.WriteLine("this is testing");
-            
+                       
         }
 
         private void button_click(object sender, EventArgs e)
         {
-            MessageBox.Show("this is the button press testimg");
             Button b = (Button)sender;
-
+   //         MessageBox.Show(b.Name);
             if (turn)
                 b.Text = "X";
             else
@@ -53,8 +50,28 @@ namespace ConnectFour
 
             turn = !turn;
 
+            b.Enabled = false;
+            checkForWinner();
+        }
 
 
+        private void checkForWinner()
+        {
+            bool isWinning = false;
+
+            if (((button01.Text == button2.Text) && (button2.Text == button3.Text) && (!button01.Enabled))
+                 || ((button4.Text == button5.Text) && (button5.Text == button6.Text) && (!button3.Enabled))
+                 || (button7.Text == button6.Text) && (button6.Text == button9.Text) && (!button7.Enabled))
+            {
+                isWinning = true;
+            }
+
+
+            if (isWinning)
+            {
+                MessageBox.Show("winning");
+            }
+         
         }
     }
 }

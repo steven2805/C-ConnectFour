@@ -28,113 +28,115 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button button1;
-            System.Windows.Forms.Button button2;
-            System.Windows.Forms.Button button3;
-            System.Windows.Forms.Button button4;
-            System.Windows.Forms.Button button5;
-            System.Windows.Forms.Button button6;
-            System.Windows.Forms.Button button7;
-            System.Windows.Forms.Button button8;
-            System.Windows.Forms.Button button9;
+            this.button01 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
-            button3 = new System.Windows.Forms.Button();
-            button4 = new System.Windows.Forms.Button();
-            button5 = new System.Windows.Forms.Button();
-            button6 = new System.Windows.Forms.Button();
-            button7 = new System.Windows.Forms.Button();
-            button8 = new System.Windows.Forms.Button();
-            button9 = new System.Windows.Forms.Button();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // button01
             // 
-            button1.Location = new System.Drawing.Point(12, 50);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(76, 75);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += new System.EventHandler(this.button_click);
+            this.button01.AccessibleName = "button01";
+            this.button01.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button01.Location = new System.Drawing.Point(12, 50);
+            this.button01.Name = "button01";
+            this.button01.Size = new System.Drawing.Size(76, 75);
+            this.button01.TabIndex = 1;
+            this.button01.UseVisualStyleBackColor = true;
+            this.button01.Click += new System.EventHandler(this.button_click);
             // 
             // button2
             // 
-            button2.Location = new System.Drawing.Point(103, 50);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(76, 75);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += new System.EventHandler(this.button_click);
+            this.button2.AccessibleName = "button2";
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(103, 50);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(76, 75);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button_click);
             // 
             // button3
             // 
-            button3.Location = new System.Drawing.Point(196, 50);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(76, 75);
-            button3.TabIndex = 3;
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += new System.EventHandler(this.button_click);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(196, 50);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(76, 75);
+            this.button3.TabIndex = 3;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button_click);
             // 
             // button4
             // 
-            button4.Location = new System.Drawing.Point(12, 131);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(76, 75);
-            button4.TabIndex = 4;
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += new System.EventHandler(this.button_click);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(12, 131);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(76, 75);
+            this.button4.TabIndex = 4;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button_click);
             // 
             // button5
             // 
-            button5.Location = new System.Drawing.Point(103, 131);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(76, 75);
-            button5.TabIndex = 5;
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += new System.EventHandler(this.button_click);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(103, 131);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(76, 75);
+            this.button5.TabIndex = 5;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button_click);
             // 
             // button6
             // 
-            button6.Location = new System.Drawing.Point(196, 131);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(76, 75);
-            button6.TabIndex = 6;
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += new System.EventHandler(this.button_click);
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(196, 131);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(76, 75);
+            this.button6.TabIndex = 6;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button_click);
             // 
             // button7
             // 
-            button7.Location = new System.Drawing.Point(12, 212);
-            button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(76, 75);
-            button7.TabIndex = 7;
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += new System.EventHandler(this.button_click);
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(12, 212);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(76, 75);
+            this.button7.TabIndex = 7;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button_click);
             // 
             // button8
             // 
-            button8.Location = new System.Drawing.Point(103, 212);
-            button8.Name = "button8";
-            button8.Size = new System.Drawing.Size(76, 75);
-            button8.TabIndex = 8;
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += new System.EventHandler(this.button_click);
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(103, 212);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(76, 75);
+            this.button8.TabIndex = 8;
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button_click);
             // 
             // button9
             // 
-            button9.Location = new System.Drawing.Point(196, 212);
-            button9.Name = "button9";
-            button9.Size = new System.Drawing.Size(76, 75);
-            button9.TabIndex = 9;
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += new System.EventHandler(this.button_click);
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(196, 212);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(76, 75);
+            this.button9.TabIndex = 9;
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button_click);
             // 
             // menuStrip2
             // 
@@ -160,13 +162,13 @@
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(181, 26);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(157, 26);
             this.toolStripMenuItem3.Text = "New Game";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(181, 26);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(157, 26);
             this.toolStripMenuItem4.Text = "Exit";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
@@ -181,22 +183,22 @@
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(181, 26);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(125, 26);
             this.toolStripMenuItem5.Text = "About";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(283, 298);
-            this.Controls.Add(button9);
-            this.Controls.Add(button8);
-            this.Controls.Add(button7);
-            this.Controls.Add(button6);
-            this.Controls.Add(button5);
-            this.Controls.Add(button4);
-            this.Controls.Add(button3);
-            this.Controls.Add(button2);
-            this.Controls.Add(button1);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button01);
             this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip2;
             this.Name = "Form1";
@@ -231,6 +233,15 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.Button button01;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 
