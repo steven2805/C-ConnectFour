@@ -37,12 +37,24 @@ namespace ConnectFour
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("this is the button press");
-
+            System.Console.WriteLine("this is testing");
+            
         }
 
         private void button_click(object sender, EventArgs e)
         {
             MessageBox.Show("this is the button press testimg");
+            Button b = (Button)sender;
+
+            if (turn)
+                b.Text = "X";
+            else
+                b.Text = "O";
+
+            turn = !turn;
+
+
+
         }
     }
 }
