@@ -69,7 +69,7 @@ namespace ConnectFour
             }
 
             if (((button01.Text == button5.Text) && (button5.Text == button9.Text) && (!button01.Enabled))
-                || ((button3.Text == button5.Text) && (button5.Text == button7.Text) && (!button2.Enabled)))
+            || ((button3.Text == button5.Text) && (button5.Text == button7.Text) && (!button3.Enabled)))
             {
                 isWinning = true;
             }
@@ -99,6 +99,12 @@ namespace ConnectFour
                 }              
             }
          
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+            Environment.Exit(0);
         }
     }
 }
