@@ -34,23 +34,19 @@ namespace ConnectFour
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-                       
-        }
 
         private void button_click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
-   //         MessageBox.Show(b.Name);
             if (turn)
                 b.Text = "X";
             else
                 b.Text = "O";
 
             turn = !turn;
-
+            turn_count++;
             b.Enabled = false;
+
             checkForWinner();
         }
 
@@ -67,9 +63,26 @@ namespace ConnectFour
             }
 
 
-            if (isWinning)
+            if (isWinning || turn_count == 9)
             {
-                MessageBox.Show("winning");
+                foreach(Control ctrl in Controls)
+                {
+                    ctrl.Enabled = false;
+                    if(ctrl.Name == "menuStrip2")
+                    {
+                        ctrl.Enabled = true;
+                    };
+                }
+                if (turn_count == 9)
+                {
+                    MessageBox.Show("draw");
+                }
+                else
+                {
+                   MessageBox.Show("winning");
+                }
+            
+                
             }
          
         }
